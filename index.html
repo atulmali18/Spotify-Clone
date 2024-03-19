@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Assets/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="/home">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="/Search">Search</a>
+                </div>
+            </div>
+            <div class="library">
+               <div class="option">
+                    <div class="lib-option nav-option">
+                        <img src="Assets/library_icon.png" alt="">
+                        <a href="/Search">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+               </div> 
+               <div class="boxes">
+                    <p class="box-p1">Create your first playlist</p>
+                    <p class="box-p2">It's easy, we'll help you</p>
+                    <button class="badge">Create playlist</button>
+               </div>
+               <div class="boxes">
+                    <p class="box-p1">Let's find some podcasts to follow</p>
+                    <p class="box-p2">It's easy, we'll help youWe'll keep you updated on new episodes</p>
+                    <button class="badge">Browse podcasts</button>
+               </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <img class="arrow-right" src="Assets/backward_icon.png" alt="">
+                <img  class="arrow-left hide" src="Assets/forward_icon.png" alt="">
+                <div class="h-btn">  
+                    <button class="badge sign hide">Explore Premium</button>
+                    <button class="badge login dark-badge"><i class="fa-regular fa-circle-down"></i>Install App</button>
+                    <i class="fa-regular fa-user"></i>
+                </div> 
+            </div>
+            <h2 class="h2-h">Played Recently</h2>
+            <!-- -------------------------------------------------------------------------------------------------- -->
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="Assets/card1img.jpeg" alt="">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most tracks</p>
+                    </div>
+                </div>
+            <!-- -------------------------------------------------------------------------------------------------- -->
+                <h2 class="h2-h">Spotify Playlists</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="Assets/card2img.jpeg" alt="">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most tracks</p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/card3img.jpeg" alt="">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most tracks</p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/card4img.jpeg" alt="">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most tracks</p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/card5img.jpeg" alt="">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most tracks</p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/card4img.jpeg" alt="">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most tracks</p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/card2img.jpeg" alt="">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most tracks</p>
+                    </div>
+                </div>
+                <h2 class="h2-h">Feature Charts</h2>
+                <!-- -------------------------------------------------------------------------------------------------- -->
+                <div class="cards-container">
+                    <div class="card">
+                            <img src="Assets/card5img.jpeg" alt="">
+                            <p class="card-title">Top 50 - Global</p>
+                            <p class="card-info">Your daily updates of the most tracks</p>
+                        </div>
+                        <div class="card">
+                            <img src="Assets/card6img.jpeg" alt="">
+                            <p class="card-title">Top 50 - Global</p>
+                            <p class="card-info">Your daily updates of the most tracks</p>
+                        </div>
+                        <div class="card">
+                            <img src="Assets/card4img.jpeg" alt="">
+                            <p class="card-title">Top 50 - Global</p>
+                            <p class="card-info">Your daily updates of the most tracks</p>
+                        </div>
+                </div>
+            
+            <div class="footer">
+                <div class="line">
+
+                </div>
+            </div>
+
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="Assets/card3img.jpeg" alt="">
+                <div class="sn">
+                    <div class="sname">Daylight</div>
+                    <div class="sinfo">Anuv Jain</div>
+                </div>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-brands fa-chromecast"></i>
+            </div>
+            <div class="player">
+                <div class="player-control">
+                    <img src="Assets/player_icon1.png" alt="">
+                    <img src="Assets/player_icon2.png" alt="">
+                    <img class="play" src="Assets/play_musicbar.png" alt="">
+                    <img src="Assets/player_icon4.png" alt="">
+                    <img src="Assets/player_icon5.png" alt="">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00.00</span>
+                    <input type="range" min="0" max="100" class="progress-bar load">
+                    <span class="top-time">3.33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <img class="c-icon" src="Homework Assets/controls_icon1.png" alt="">
+                <img class="c-icon" src="Homework Assets/controld_icon2.png" alt="">
+                <img class="c-icon sta" src="Homework Assets/controls_icon3.png" alt="">
+                <img class="c-icon com" src="Homework Assets/controls_icon4.png" alt="">
+                <div class="vol">
+                    <img class="c-icon" src="Homework Assets/controls_icon5.png" alt="">
+                    <input type="range" min="0" max="100" class="progress-bar load vol-bar">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
