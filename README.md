@@ -1,3 +1,2 @@
 # Spotify-Clone
-
-# Created By Atul
+- Created By Atul
